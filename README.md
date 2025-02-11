@@ -37,22 +37,24 @@ BlogSpot is a multi-user blog application built using Django. It serves as more 
    cd BlogSpot_Community_Space--master
 
 2. **Create a Virtual Environment **(Optional but recommended)
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Install Dependencies
+   ```sh
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-3.** Install Dependencies**
-pip install -r requirements.txt
-Apply Migrations
+
+3.** Install Dependencies** using : pip install -r requirements.txt
 
 4. **Apply Migrations**
-python manage.py migrate
-Create a Superuser (Admin)
+   ```sh
+    python manage.py migrate
+    Create a Superuser (Admin)
 
-5. **Create a Superuser (Admin)**
-python manage.py createsuperuser
-Run the Development Server
+6. **Create a Superuser (Admin)**
+   ```sh
+    python manage.py createsuperuser
+    Run the Development Server
 
-6. **Run the Development Server**
-python manage.py runserver
-Access the application at** http://127.0.0.1:8000/**
+7. **Run the Development Server**
+ ```sh
+    python manage.py runserver
+    Access the application at http://127.0.0.1:8000/
