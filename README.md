@@ -36,13 +36,13 @@ BlogSpot is a multi-user blog application built using Django. It serves as more 
    git clone https://github.com/Murali-77/Blog-Application---Django
    cd BlogSpot_Community_Space--master
 
-2. **Create a Virtual Environment **(Optional but recommended)
+2. **Create a Virtual Environment**(Optional but recommended)
    ```sh
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 
-3.** Install Dependencies** using : pip install -r requirements.txt
+3.**Install Dependencies** using : pip install -r requirements.txt
 
 4. **Apply Migrations**
    ```sh
